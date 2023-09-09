@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GITS-Technitude-Events/static/css/main.f4a3f7ba.css",
+    "main.js": "/GITS-Technitude-Events/static/js/main.2c3716e3.js",
+    "static/js/787.99d3493d.chunk.js": "/GITS-Technitude-Events/static/js/787.99d3493d.chunk.js",
+    "static/media/Valorant.jpeg": "/GITS-Technitude-Events/static/media/Valorant.36df622e133bb0f76a05.jpeg",
+    "static/media/BGMI.jpeg": "/GITS-Technitude-Events/static/media/BGMI.9bbace57b24b05287d81.jpeg",
+    "static/media/Alice_Borderland_1.jpeg": "/GITS-Technitude-Events/static/media/Alice_Borderland_1.66a12d716e4a3e6728b1.jpeg",
+    "static/media/Box_Cricket.jpeg": "/GITS-Technitude-Events/static/media/Box_Cricket.0f4a7cd24b29c793fd78.jpeg",
+    "static/media/Race_to_SA.jpeg": "/GITS-Technitude-Events/static/media/Race_to_SA.90fb771b237039419b85.jpeg",
+    "static/media/logo.png": "/GITS-Technitude-Events/static/media/logo.1f4c5dfa49d50b6b48f4.png",
+    "static/media/NEON_Cricket.jpeg": "/GITS-Technitude-Events/static/media/NEON_Cricket.c873d369ec27c6a1b308.jpeg",
+    "static/media/Manhattan.jpeg": "/GITS-Technitude-Events/static/media/Manhattan.3e3b32e6c7953d7bbaa6.jpeg",
+    "static/media/Blind_Coding.jpeg": "/GITS-Technitude-Events/static/media/Blind_Coding.355ed788d3f21eac00fc.jpeg",
+    "static/media/Dynasty_of_Dance.jpeg": "/GITS-Technitude-Events/static/media/Dynasty_of_Dance.f6aaafdfbdb68a11acd3.jpeg",
+    "static/media/Rythmic_Fusion.jpeg": "/GITS-Technitude-Events/static/media/Rythmic_Fusion.5c038fd5c7f447fadf63.jpeg",
+    "static/media/bg.png": "/GITS-Technitude-Events/static/media/bg.012717e3fce6984e9eeb.png",
+    "static/media/logo.svg": "/GITS-Technitude-Events/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/GITS-Technitude-Events/index.html",
+    "main.f4a3f7ba.css.map": "/GITS-Technitude-Events/static/css/main.f4a3f7ba.css.map",
+    "main.2c3716e3.js.map": "/GITS-Technitude-Events/static/js/main.2c3716e3.js.map",
+    "787.99d3493d.chunk.js.map": "/GITS-Technitude-Events/static/js/787.99d3493d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4a3f7ba.css",
+    "static/js/main.2c3716e3.js"
+  ]
+}
