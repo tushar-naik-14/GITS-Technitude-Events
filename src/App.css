@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Maven+Pro:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Titillium+Web:ital,wght@0,400;1,300;1,400;1,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/bg.png");
+  background-repeat: repeat;
+  min-height: 100vh;
+  opacity: 1;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.navbar img {
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.appEvents {
+  display: grid;
+  grid-template-columns: 435px 435px 435px; 
+  justify-content: center;
+}
+
+.appEvents img{
+  border: 2px solid aqua;
+}
+
+
+.eventsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  padding: 10px;
+}
+
+.eventCard {
+  position: relative;
+  background-color: #312f38;
+  margin: 1rem;
+  flex: 1 0 calc(33.33% - 2rem); 
+  max-width: 70rem;
+  max-height: 70rem;
+  transition: 0.2s;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+}
+
+.eventCard:hover {
+  transform: translateY(0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem rgba(173, 244, 244, 0.5);
+}
+
+.eventPoster {
+  margin-top: 2rem;
+  max-width: 80%;
+  height: 275px;
+  width: 213px;
+}
+
+.eventContent {
+  margin: 2rem;
+}
+
+.eventName {
+  font-size: 2rem;
+  font-weight: bold;
+  color: aqua;
+}
+
+.eventInfo {
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+
+.eventButtonContainer {
+  width: 100%;
+  text-align: center; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.eventButton {
+  width: 100%;
+  height: 24px;
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #3A397D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.eventButton:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  color: whitesmoke;
+  font-size: 75px;
+  margin-top: 35px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 10%;
+}
+
+.content h1{
+  font-size: 75px;
+  font-weight: 900;
+  position: relative;
+}
+
+.content h1::before{
+  content: "Group of IT Students";
+  position: absolute;
+  color: #000;
+  top: -2px;
+  left: -2px;
+  -webkit-text-stroke: 1px #95C11E;
+  z-index: -1;
+}
+
+.header {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.header h2{
+  font-size: 50px;
+  font-weight: 750;
+}
+
+.header p{
+  font-size: 26px;
+  font-weight: 300;
+  position: relative;
+}
+
+.header p::before{
+  content: "Datta Meghe College of Engineering's annual extravaganza that fuses knowledge, creativity, and passion. This event unites students from diverse disciplines to celebrate intellect and innovation. Among the many captivating events curated by our dedicated college committees, we are particularly excited to present to you the innovative events held by GITS. Join us for an extraordinary journey of knowledge, innovation, and endless inspiration at Technitude 23!";
+  position: absolute;
+  color: #000;
+  top: -1.2px;
+  left: -1.2px;
+  -webkit-text-stroke: 1px #95C11E;
+  z-index: -1;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .navbar img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .appEvents {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar img {
+    width: 100px; 
+  }
+
+  .content {
+    font-size: 45px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    max-width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .eventCard {
+    flex: 1 0 calc(50% - 1rem); 
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar img {
+    width: 100px; 
+    height: 100px;
+  }
+
+  .content {
+    font-size: 25px;
+    margin-top: 0;
+  }
+}
